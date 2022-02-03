@@ -1,0 +1,22 @@
+{
+    "name": "heliwrenaid/bifrost-router-project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https:\/\/github.com\/Heliwrenaid\/BifrostRouter.git"
+        }
+    ],
+    "require": {
+        "heliwrenaid/bifrostrouter": "dev-test"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "scripts": {
+        "bifrost": [
+            "@php vendor/heliwrenaid/bifrostrouter/scripts/bifrost.php"
+        ]
+    }
+}

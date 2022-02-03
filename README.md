@@ -1,1 +1,1 @@
-# bifrost-router-project
+### Project template for [BifrostRouter](https://github.com/Heliwrenaid/BifrostRouter) framework
